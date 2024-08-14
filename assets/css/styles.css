@@ -1,0 +1,177 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.body {
+    font-family: 'Inter', sans-serif;
+}
+
+:root,
+[data-bs-theme=light] {
+    --bs-body-font-family: 'Inter', sans-serif;
+    --bs-heading-font-family: 'Open Sans', sans-serif;
+    --bs-body-font-size: 16px;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #49515B;
+    --bs-body-color-rgb: 73, 81, 91;
+    --bs-primary: #6A48F2;
+    --bs-secondary: #000;
+    --bs-dark: #212121;
+    --bs-light: #F7F8F9;
+    --bs-info: #23BABF;
+    --bs-warning: #F3A338;
+    --bs-danger: #F26F4D;
+    --bs-success: #47B16A;
+    --bs-primary-rgb: 0, 68, 235;
+    --bs-secondary-rgb: 244, 67, 128;
+    --bs-dark-rgb: 2, 8, 66;
+    --bs-light-rgb: 227, 240, 255;
+    --bs-info-rgb: 35, 186, 191;
+    --bs-warning-rgb: 243, 163, 56;
+    --bs-danger-rgb: 242, 111, 77;
+    --bs-success-rgb: 71, 177, 106;
+    --bs-primary-bg-subtle: rgba(0, 68, 235, 0.10);
+    --bs-secondary-bg-subtle: rgba(244, 67, 128, 0.10);
+    --bs-info-bg-subtle: rgba(35, 186, 191, 0.10);
+    --bs-warning-bg-subtle: rgba(243, 163, 56, 0.10);
+    --bs-danger-bg-subtle: rgba(242, 111, 77, 0.10);
+    --bs-success-bg-subtle: rgba(71, 177, 106, 0.10);
+    --bs-border-color: #E3F0FF;
+    --bs-border-color-translucent: rgba(227, 240, 255, 1);
+    --bs-border-radius: 10px;
+    --bs-border-radius-sm: 20px;
+    --bs-border-radius-pill: 50px;
+    --bs-transition: 300ms ease;
+}
+
+
+/* 1.2 - Template Reset - Start
+================================================== */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    font-style: normal;
+    color: var(--bs-body-color);
+    font-family: var(--bs-body-font-family);
+    background-color: var(--bs-body-bg);
+    text-rendering: optimizelegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.btn-1-outline {
+    gap: 10px;
+    line-height: normal;
+    padding: 10px 20px;
+    font-size: 14px;
+    overflow: hidden;
+    font-weight: 400;
+    transition: 300ms;
+    position: relative;
+    align-items: center;
+    display: inline-flex;
+    color: #000;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: var(--bs-body-font-family);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: var(--bs-border-radius-pill);
+    background-color: none;
+}
+
+.btn-1-fill {
+    gap: 10px;
+    line-height: normal;
+    padding: 18px 40px;
+    font-size: 14px;
+    overflow: hidden;
+    font-weight: 400;
+    transition: 300ms;
+    position: relative;
+    align-items: center;
+    display: inline-flex;
+    color: var(--bs-white);
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: var(--bs-body-font-family);
+    background-color: var(--bs-primary);
+    border: 1px solid var(--bs-primary);
+    border-radius: var(--bs-border-radius-pill);
+}
+
+
+/* header */
+
+.site_header {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    position: absolute;
+    transition: transform .5s;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.site_header_1 .header_bottom {
+    background-color: var(--bs-white);
+    border-bottom: 1px solid var(--bs-border-color);
+}
+
+.site_header_1 .header_bottom {
+    background-color: var(--bs-white);
+    border-bottom: 1px solid var(--bs-border-color);
+}
+
+.bs-helptext {
+    background: var(--bs-body-bg);
+    color: #000 !important;
+    border: 1px solid #00000020;
+}
+
+.it_solution_hero_content h1 {
+    font-size: 55px;
+    line-height: 60px;
+    margin: 15px 0 20px;
+    letter-spacing: -2px;
+}
+
+.stricked-menu.stricky-fixed {
+    transform: translateY(0%);
+    visibility: visible;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 18px;
+    background-color: #ffffff80;
+    backdrop-filter: blur(10px);
+    border: none !important;
+}
+
+.width-full {
+    width: 100% !important;
+}
+
+
+.fs-14 {
+    font-size: 14px !important;
+}
+.fs-12 {
+    font-size: 12px !important;
+}
+.fs-16 {
+    font-size: 16px !important;
+}
+
+.fw-400 {
+    font-weight: 400 !important;
+}
+
+.fw-500 {
+    font-weight: 500 !important;
+}
+.fw-600 {
+    font-weight: 600 !important;
+}
